@@ -1,0 +1,40 @@
+#video {
+  width: 100%;
+  height: auto;
+}
+#capture-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+#camera-feed {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  overflow: hidden;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#camera-feed video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+#preview {
+  display: none;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
